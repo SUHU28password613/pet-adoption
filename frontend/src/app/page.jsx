@@ -6,7 +6,7 @@ const Home = () => {
     {/* Header */}
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-blue-600"> PET...</div>
+        <div className="text-2xl font-bold text-purple-600"> petfinder...</div>
         <nav className="hidden md:flex space-x-4">
           <a href="#" className="text-gray-600 hover:text-blue-600">
             Home
@@ -53,10 +53,10 @@ const Home = () => {
         <h1 className="text-white text-3xl md:text-6xl font-bold">
           Welcome to Our Website
         </h1>
-        <h4 className="text-white text-2xl md:text-5xl font-bold">
+        <h4 className="text-orange text-2xl md:text-5xl font-bold">
           Every Pet Deserves a Loving Home.
         </h4>
-        <h3 className="text-white text-2xl md:text-5xl font-bold">
+        <h3 className="text-purple text-2xl md:text-5xl font-bold">
           Adopt a Pet Today
         </h3>
         <p className="text-white mt-4 text-lg md:text-xl">
