@@ -46,7 +46,6 @@ const Search = () => {
                     <p className="mb-2 text-gray-700">
 
 
-
                     </p>
 
                     <p className="mb-2 text-gray-700">
