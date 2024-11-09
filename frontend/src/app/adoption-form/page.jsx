@@ -19,7 +19,7 @@ const AdoptionForm = () => {
     })
 
     return (
-        <div>AdoptionForm
+        <div>
             <section className="text-gray-600 body-font relative">
                 <img src="https://th.bing.com/th/id/OIP.3t-9r7J5b2DZPGUNopa53gAAAA?w=470&h=246&rs=1&pid=ImgDetMain"
                     className="object-cover w-[70%] h-56 rounded shadow-lg md:h-96 block m-auto"

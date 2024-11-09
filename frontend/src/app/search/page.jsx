@@ -15,8 +15,8 @@ const Search = () => {
     const [productData, setProductData] = useState(Data);
 
     const displayProducts = () => {
-        return productData.map(product => (
-            <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+        return productData.map((product, index) => (
+            <div key={index} className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
                 <img
                     src={product.img}
                     className="object-cover w-full h-64"
@@ -56,23 +56,23 @@ const Search = () => {
                     </p>
                     <p className="mb-2 text-gray-700">
 
-                        
+
+
+
+                    </p>
+                    <p className="mb-2 text-gray-700">
+
 
 
                     </p>
                     <p className="mb-2 text-gray-700">
 
-                       
+
 
                     </p>
                     <p className="mb-2 text-gray-700">
 
-                        
 
-                    </p>
-                    <p className="mb-2 text-gray-700">
-
-                       
 
                     </p>
                     <Link
@@ -153,8 +153,9 @@ const Search = () => {
 
                     <div className="my-5 sm:mt-20">
                         {
-                            petType.map(type => (
+                            petType.map((type, index) => (
                                 <button
+                                    key={index}
                                     onClick={() => filterPet(type)}
                                     className="m-1 py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
 
