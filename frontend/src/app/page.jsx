@@ -5,23 +5,21 @@ const Home = () => {
     <>
       <section
         className="bg-cover bg-center h-screen text-center"
-        style={{ backgroundImage: 'url("/")'}}
+        style={{ backgroundImage: 'url("https://www.doggies.com/blog/wp-content/uploads/2017/10/pet-montage-1024x1024.jpg")'}}
       >
         <div className="flex flex-col items-center justify-center h-full bg-black bg-opacity-50">
           <h1 className="text-white text-3xl md:text-6xl font-bold">
             Welcome to Our Website
           </h1>
-          <h4 className="text-orange text-2xl md:text-5xl font-bold">
-            Every Pet Deserves a Loving Home.
+          <h4 className="text-white text-2xl md:text-5xl font-bold">
+            ANIMALS NEED 
           </h4>
-          <h3 className="text-purple text-2xl md:text-5xl font-bold">
-            Adopt a Pet Today
+          <h3 className="text-white text-2xl md:text-5xl font-bold">
+            Your Help!
           </h3>
           <p className="text-white mt-4 text-lg md:text-xl">
-            Browse our avilable animal's and learn more about the adoptation
-            process.Together,we can rescue,rehabilitate ,and rehome pets in need.
-            Thankyou for supporting our mission to bring joy to families through pet
-            adoption.{" "}
+            You can chip in with money and effort!
+             Cats, Dogs and Even Raccoons Adopt Any Pet They Like!{" "}
           </p>
           <a
             href="#"
@@ -80,23 +78,23 @@ const Home = () => {
             {/* Testimonial 1 */}
             <div className="bg-gray-100 shadow-lg rounded-lg p-6">
               <p className="text-gray-600">
-                "This service has been a game changer for my business!"
+                "Fast they also have a grooming service and moderate pricing"
               </p>
               <h4 className="mt-4 text-gray-800 font-semibold">- Jane Doe</h4>
             </div>
             {/* Testimonial 2 */}
             <div className="bg-gray-100 shadow-lg rounded-lg p-6">
               <p className="text-gray-600">
-                "Professional, efficient, and reliable. Highly recommended!"
+                "So impressive with the work they do"
               </p>
               <h4 className="mt-4 text-gray-800 font-semibold">- John Smith</h4>
             </div>
             {/* Testimonial 3 */}
             <div className="bg-gray-100 shadow-lg rounded-lg p-6">
               <p className="text-gray-600">
-                "Top-notch service from start to finish!"
+                "I adopter Zero from y'all a year ago and we are so happy together. Thank you so much!!!"
               </p>
-              <h4 className="mt-4 text-gray-800 font-semibold">- Emily Johnson</h4>
+              <h4 className="mt-4 text-gray-800 font-semibold">- Emily Johshon</h4>
             </div>
           </div>
         </div>
@@ -123,7 +121,7 @@ const Home = () => {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-8">
         <div className="container mx-auto px-6 text-center">
-          <p>© 2024 PET.. . All rights reserved.</p>
+          <p>© 2024 PET ADOPTATION... All rights reserved.</p>
           <div className="mt-4">
             <a href="#" className="text-gray-400 hover:text-white mx-2">
               Facebook
