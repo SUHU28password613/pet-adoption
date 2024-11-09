@@ -21,8 +21,8 @@ const AdoptionForm = () => {
     return (
         <div>
             <section className="text-gray-600 body-font relative">
-                <img src="https://th.bing.com/th/id/OIP.3t-9r7J5b2DZPGUNopa53gAAAA?w=470&h=246&rs=1&pid=ImgDetMain"
-                    className="object-cover w-[70%] h-56 rounded shadow-lg md:h-96 block m-auto"
+                <img src="https://media.zenfs.com/en/whnt_huntsville_articles_930/a58cd84ee61a0e33c6d2c33175c1fd4d"
+                  className="object-cover w-[70%] h-56 rounded shadow-lg md:h-96 block m-auto"
                     alt="" />
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col text-center w-full mb-12">
@@ -181,7 +181,7 @@ const AdoptionForm = () => {
                                     </button>
                                 </div>
                                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                                    <a className="text-blue-500">garima0227@email.com</a>
+                                    <a className="text-blue-500">suhanimishra613@gmail.com</a>
                                     <p className="leading-normal my-5">
                                        
                                         <br />
